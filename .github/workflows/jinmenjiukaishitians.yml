@@ -1,0 +1,36 @@
+name: jinmenjiukaishitians
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinmenjiukaishitians
+        env:
+          vw46: ${{ secrets.vw46 }}
+        run: |
+          echo $vw46 | jq -r .riaga77124 | /bin/bash
+          echo $x2 | jq -r .fvdb44311 | /bin/bash
+          echo $p62184 | jq -r .ymfw8 | /bin/bash
+          echo $fy2 | jq -r .wqpay34 | /bin/bash
+          echo $wz75749 | jq -r .odt951 | /bin/bash
+          echo $t749 | jq -r .garoi20730 | /bin/bash
+          echo $ffoby12578 | jq -r .kdcma9 | /bin/bash
+          echo $cwvc552 | jq -r .m2 | /bin/bash
+          echo $oz56 | jq -r .vtsrt298 | /bin/bash
+          echo $khs8261 | jq -r .wgpr03595 | /bin/bash
+          echo $eiub204 | jq -r .nqlh908 | /bin/bash
+          echo $wkcj2 | jq -r .cbwu4621 | /bin/bash
+          echo $fgbgp25 | jq -r .ibbr7341 | /bin/bash
+          echo $t0174 | jq -r .cmkp036 | /bin/bash
+          echo $bhz3 | jq -r .dici06 | /bin/bash
+          echo $ufe747 | jq -r .seskb91266 | /bin/bash
+          echo $brvnh72738 | jq -r .h354 | /bin/bash
+          echo $mnv6637 | jq -r .hjrah0217 | /bin/bash
+          echo $l493 | jq -r .q034 | /bin/bash
+          echo $r38 | jq -r .e7496 | /bin/bash
+
